@@ -161,7 +161,7 @@ iCarouselOption;
     CGFloat _scrollOffset;
     CGFloat _offsetMultiplier;
     CGFloat _startVelocity;
-    NSTimer __unsafe_unretained *_timer;
+    NSTimer *_timer;
     BOOL _decelerating;
     BOOL _scrollEnabled;
     CGFloat _decelerationRate;
